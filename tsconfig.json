@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5", // babel的な役割
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "sourceMap": true,
+    "module": "esnext",
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "esModuleInterop": true, // デフォルトインポートを使用するため
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["./src/**/*"]
+}
